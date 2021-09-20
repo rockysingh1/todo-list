@@ -1,0 +1,38 @@
+body{
+  background-color: #3498db;
+}
+.container{
+  padding: 20px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-status{
+  display: flex;
+  flex-direction: row;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 7px;
+  color: rgb(32, 32, 32);
+}
+
+.todo-status > div{
+  margin: 5px;
+  font-size: 16px;
+}
+
+.clear-all{
+  background: #e94736;
+  color: #ffffff;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 7px;
+}
+
+.clear-all:hover{
+  background: #df2c18;
+}

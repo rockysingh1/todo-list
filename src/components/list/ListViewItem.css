@@ -1,0 +1,55 @@
+.list-view-item{
+    margin: 5px 5px 0px 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+    background-color: #fff8f8;
+    border: solid 2px #3498db;
+    transition: visibility 0s 2s, opacity 2s linear;
+}
+
+.list-view-item:last-child{
+    margin-bottom: 5px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.list-view-item:hover{
+    background-color: #3498db;
+    border: solid 2px rgb(32, 32, 32);
+    color: white;
+}
+
+.delete-button{
+    font-size: 18px;
+    margin-left: auto;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.list-view-item:hover > .delete-button {
+    background-color: rgb(243, 84, 56);
+    color: #fff8f8;
+    visibility: visible;
+}
+
+.list-view-item:hover > .delete-button {
+    background-color: #e94736;
+    color: #fff8f8;
+    visibility: visible;
+}
+
+.list-view-item:hover > .delete-button:hover {
+    background-color: #df2c18;
+}
+
+
+
+
+  .todo-container{
+      text-align: center;
+  }

@@ -3,7 +3,6 @@ import './App.css';
 import InputText from './components/input/InputText'
 import ListView from './components/list/ListView'
 import Header from './components/header/Header'
-import {v1 as uuid} from 'uuid';
 
 function App() {
   const [pendingCount, setPendingCount] = useState(0)
@@ -25,7 +24,7 @@ function App() {
       toDoList = {toDoList} 
       setToDoList = {setToDoList} 
       setPendingCount = {setPendingCount} />
-      
+
       {toDoList.length > 0 &&
       <button className="clear-all" onClick={clearTodoList}>Clear All</button>}
     </div>
